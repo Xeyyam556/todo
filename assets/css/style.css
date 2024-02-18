@@ -1,0 +1,75 @@
+.section{
+    text-align: center;
+    margin-top: 100px;
+}
+.h1{
+    font-size: 100px;
+    color: rgb(47, 10, 82);
+}
+.task{
+    width: 400px;
+    height: 50px;
+    border: 1px solid white;
+    font-size: 20px;
+}
+.add{
+background-color: rgb(47, 10, 82);
+color: white;
+height: 40px;
+width: 80px;
+border-radius: 10px;
+
+margin-left: 50px;
+}
+body{
+background-color: yellow;
+}
+#divv{
+    color: black;
+    font-size:30px;
+    margin-left: 490px;
+    background-color: white;
+    width: 405px;
+   border: 1px solid rgb(100, 97, 97);
+   
+}
+#remove{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    
+    font-size: 24px;
+    color: red;
+cursor: pointer;
+    
+   
+}
+ 
+  
+  .fut button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+#radio{
+ border-radius: 100%;
+ height: 20px;
+
+}
+.fut{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 300px;
+    margin-left: 490px;
+    width: 406px;
+
+}
+/* .tasks{
+    display: flex;
+    gap: 20px;
+} */
+.all, .completed, .clear, .active{
+    border-radius: 7px;
+    background-color: rgb(47, 10, 82);
+    color: white;
+}
